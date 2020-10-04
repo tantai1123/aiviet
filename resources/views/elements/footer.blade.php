@@ -1,0 +1,31 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <!-- Copyright -->
+            <div class="col-lg-4 copyright">
+                <a href="https://esm.com.vn/">
+                    <img src="{{asset('uploads/image/logo/horizontal_logo_white.png')}}" alt="ESM"/>
+                </a>
+                <p>© 2020 E-Solution Media</p>
+            </div>
+            <div class="col-lg-4">
+                <div class="getintouch ft-contact">
+                    <h3 class="title">Liên hệ</h3>
+                    <p><i class="ficon fas fa-home"></i>&nbsp;253 Điện Biên Phủ, Phường 7, Quận 3, TPHCM</p>
+                    <p><i class="ficon fas fa-phone"></i>&nbsp;073 362 514</p>
+                    <p><i class="ficon far fa-envelope"></i>office@aivietgroup.asia</p>
+                </div>
+                <div class="ftr-social">
+                    <div id="social-icon" class="social"></div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="getintouch">
+                    <h3 class="title">Mã số thuế</h3>
+                    <h4 class="orange">0315825815</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</footer>
