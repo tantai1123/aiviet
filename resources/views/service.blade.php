@@ -52,7 +52,7 @@
                                                 </button>
                                             </div>
                                         @endif
-                                        <div class="modal fade show" id="quickView{{$service->id}}"
+                                        <div class="modal fade show" id="quickView{{$service->id}}" data-backdrop="false"
                                              tabindex="-1" aria-modal="true" role="dialog"
                                              aria-labelledby="modalTitle{{$service->id}}">
                                             <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">

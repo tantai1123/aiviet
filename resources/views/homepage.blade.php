@@ -17,7 +17,7 @@
             <!-- Swiper -->
             <div class="swiper-container upslide hero-slide-background position-relative">
                 <div data-relative-input="true" id="hero_background">
-                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/lap-top.png')}}" alt=""/></div>
+                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/laptop.png')}}" alt=""/></div>
 {{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-light.png')}}' alt=""/></div>--}}
 {{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-bulb.png')}}' alt=""--}}
 {{--                                                class="animation-float"/></div>--}}
@@ -84,9 +84,9 @@
                             @foreach($services as $service)
                                 <div class="swiper-slide">
                                     <div class="service">
-                                        <img width="60" src="{{asset($service->icon)}}"
-                                             alt="{{$service->service_name}}"/>
-                                        <h3 class="second-title orange">{{$service->service_name}}</h3>
+                                        <div style="text-align: center"><img width="60" src="{{asset($service->icon)}}"
+                                             alt="{{$service->service_name}}"/></div>
+                                        <h3 style="text-align: center" class="second-title orange">{{$service->service_name}}</h3>
                                         <ul>{!! '<li>'. str_replace("\n",'</li><li>',$service->description)!!}</ul>
                                     </div>
                                 </div>
@@ -112,12 +112,8 @@
                             <h2 class="title">Về chúng tôi</h2>
                             <span class="box-desc gradient">Ái Việt Digital </span>
                         </div>
-                        <p class="top_30">Chúng tôi là Ái Việt - Digital Marketing Agency.
-                            Ái Việt chuyên cung cấp giải pháp marketing hiệu quả cho những doanh nghiệp vừa và nhỏ tại
-                            Việt Nam.
-                            Sở hữu đội ngũ có trình độ chuyên môn cao và là đối tác của Google, Facebook, Tiktok.
-                            Chúng tôi tự hào trở thành đơn vị cung cấp chiến lược marketing phù hợp cho doanh nghiệp của
-                            bạn.</p>
+                        <p class="top_30"><strong>Chúng tôi là Ái Việt - Digital Marketing Agency.</strong>
+                            Ái Việt Group là đơn vị cung cấp dịch vụ Digital & Media Marketing hàng đầu tại Việt Nam. Chúng tôi mang đến giải pháp tối ưu hiệu quả cho các chiến dịch Marketing, triển khai chiến lược xây dựng thương hiệu bền vững. Từ đó, giúp gia tăng lòng tin của khách hàng và mang lại doanh thu lợi nhuận cho các Doanh nghiệp đối tác.</p>
                     </div>
                     <div class="col-lg-6 image">
                         <div id="about_scene" data-relative-input="true">
