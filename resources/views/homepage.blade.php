@@ -212,42 +212,6 @@
             </div>
         </section>
 
-{{--        <section id="news" class="news">--}}
-{{--            <div class="container wow fadeInUp">--}}
-{{--                <div class="section-title bottom_15 top_30 bottom_45">--}}
-{{--                    <h2 class="title">Kiến thức</h2>--}}
-{{--                    <span>Chia sẻ kiến thức để phát triển toàn diện</span> <br>--}}
-{{--                </div>--}}
-
-{{--                <div class="row">--}}
-{{--                    <div class="col-lg-4">--}}
-{{--                        <a class="anews" href="#">--}}
-{{--                            <div class="image"--}}
-{{--                                 style="background-image:url(https://esm.com.vn/thumbs/image/danh-muc/900x900-1-carl-heyerdahl-ke0nc8-58mq-unsplash.jpg)"></div>--}}
-{{--                            <h2 class="title">Chuyên mục F&amp;B</h2>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-lg-4">--}}
-{{--                        <a class="anews" href="#">--}}
-{{--                            <div class="image"--}}
-{{--                                 style="background-image:url(https://esm.com.vn/thumbs/image/danh-muc/900x900-1-campaign-creators-k1sq9qg-c70-unsplash.jpg)"></div>--}}
-{{--                            <h2 class="title">Martech</h2>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-lg-4">--}}
-{{--                        <a class="anews" href="#">--}}
-{{--                            <div class="image"--}}
-{{--                                 style="background-image:url(https://esm.com.vn/thumbs/image/danh-muc/900x900-1-karine-germain-iiwcjgk3704-unsplash.jpg)"></div>--}}
-{{--                            <h2 class="title">Digital Marketing</h2>--}}
-{{--                        </a>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-12 text-center">--}}
-{{--                    <a href="#" class="site-btn">SEE MORE</a>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </section>--}}
-
         <section id="contact" class="contact graybg pb-5">
             <div class="container wow fadeInUp">
                 <div class="section-title bottom_15 top_30 bottom_45">
@@ -257,7 +221,7 @@
                 <div class="contact-wrapper">
                     <div class="contact-map">
                         <div class="load-google-map google-map" data-lat="10.7819058" data-lng="106.6893539">
-                            <div class="map-info hidden">E-Solution Media</div>
+                            <div class="map-info hidden">AiViet Group</div>
                             <label for="pac-input"></label><input id="pac-input" class="form-control controls"
                                                                   type="text" placeholder="Enter address">
                             <div class="map-canvas"></div>
