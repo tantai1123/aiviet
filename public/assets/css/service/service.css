@@ -3,7 +3,7 @@
 	width:100%;
 	margin-bottom:80px;
 }
-.main-item .item .pic-thumb, 
+.main-item .item .pic-thumb,
 .main-item .item .summary {
 	width:50%;
 	position:relative;
@@ -50,6 +50,7 @@
 	background:#333;
 	padding:5px;
 	margin-bottom:20px;
+    border-radius: 50%;;
 }
 .main-item .item .sicon img {
 	width:100%;
@@ -78,7 +79,7 @@
 	text-align: center;
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
-	
+
 	color: #ffffff;
 	line-height: 28px;
 	font-size: 15px;

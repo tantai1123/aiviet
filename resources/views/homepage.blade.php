@@ -93,9 +93,6 @@
                             @endforeach
                         @endif
                     </div>
-                    <div class="col-lg-12 text-center" style="margin-top:30px;">
-                        <a href="{{route('service')}}" class="site-btn">SEE MORE</a>
-                    </div>
                 </div>
                 <div class="swiper-footer d-lg-none">
                     <div class="swiper-button-next ser-btn"></div>
