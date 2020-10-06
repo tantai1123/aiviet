@@ -82,14 +82,14 @@
                     <div class="swiper-wrapper">
                         @if(count($services)>0)
                             @foreach($services as $service)
-                                <div class="swiper-slide">
+                                <a href="{{route('service')}}" class="swiper-slide">
                                     <div class="service">
                                         <div style="text-align: center"><img width="60" src="{{asset($service->icon)}}"
                                              alt="{{$service->service_name}}"/></div>
                                         <h3 style="text-align: center" class="second-title orange">{{$service->service_name}}</h3>
                                         <ul>{!! '<li>'. str_replace("\n",'</li><li>',$service->description)!!}</ul>
                                     </div>
-                                </div>
+                                </a>
                             @endforeach
                         @endif
                     </div>

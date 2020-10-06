@@ -13,7 +13,7 @@
             <div class="container">
                 <nav id="breadcrumb" class="breadcrumb">
                     <ul class="srow">
-                        <li class="home-page"><a href="https://esm.com.vn/"><i class="ficon fa fa-home"></i></a></li>
+                        <li class="home-page"><i class="ficon fa fa-home"></i></li>
                         <li><span>Giải pháp ESM</span></li>
                     </ul>
                 </nav>

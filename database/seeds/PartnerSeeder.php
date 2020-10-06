@@ -15,37 +15,37 @@ class PartnerSeeder extends Seeder
             [
                 'partner_name' => 'tiktok',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo_tiktok_white.png',
-                'link' => '',
+                'link' => 'https://www.tiktok.com',
             ],
             [
                 'partner_name' => 'botbanhang',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo_botbanhang.png',
-                'link' => '',
+                'link' => 'https://botbanhang.vn/',
             ],
             [
                 'partner_name' => 'fnbvn',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo_fnbvn_red.png',
-                'link' => '',
+                'link' => 'https://www.facebook.com/fnbvn.academy',
             ],
             [
                 'partner_name' => 'bigbom',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo_bigbom.png',
-                'link' => '',
+                'link' => 'https://bigbom.com/',
             ],
             [
                 'partner_name' => 'kas',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo_kas.png',
-                'link' => '',
+                'link' => 'https://kas.pro.vn/',
             ],
             [
                 'partner_name' => 'ladipage',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo-ladipage.png',
-                'link' => '',
+                'link' => 'https://ladipage.vn/',
             ],
             [
                 'partner_name' => 'cnvloyalty',
                 'image' => 'thumbs/image/logo/doitac/400x400-0-logo-cnv-loyalty.png',
-                'link' => '',
+                'link' => 'https://cnvloyalty.com/',
             ]
         ]);
     }
