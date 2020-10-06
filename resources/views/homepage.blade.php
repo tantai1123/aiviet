@@ -17,13 +17,13 @@
             <!-- Swiper -->
             <div class="swiper-container upslide hero-slide-background position-relative">
                 <div data-relative-input="true" id="hero_background">
-                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/laptop.png')}}" alt=""/>
+{{--                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/laptop.png')}}" alt=""/>--}}
                     </div>
-{{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-light.png')}}' alt=""/></div>--}}
-{{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-bulb.png')}}' alt=""--}}
-{{--                                                class="animation-float"/></div>--}}
-{{--                    <div data-depth="0.35"><img src='{{asset('uploads/image/banner/banner-human.png')}}' alt=""/></div>--}}
-                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/AiVietGroup2.png')}}" alt=""/>
+                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-light.png')}}' alt=""/></div>
+                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-bulb.png')}}' alt=""
+                                                class="animation-float"/></div>
+                    <div data-depth="0.35"><img src='{{asset('uploads/image/banner/banner-human.png')}}' alt=""/></div>
+{{--                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/AiVietGroup2.png')}}" alt=""/>--}}
                     </div>
                 </div>
                 <div class="swiper-wrapper">
