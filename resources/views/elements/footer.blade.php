@@ -4,9 +4,9 @@
             <!-- Copyright -->
             <div class="col-lg-4 copyright">
                 <a href="https://esm.com.vn/">
-                    <img src="{{asset('uploads/image/logo/horizontal_logo_white.png')}}" alt="ESM"/>
+                    <img src="{{asset('uploads/image/logo/AV.png')}}" alt="AV"/>
                 </a>
-                <p>© 2020 E-Solution Media</p>
+                <p>© 2020 Ái Việt Group</p>
             </div>
             <div class="col-lg-4">
                 <div class="getintouch ft-contact">
@@ -22,7 +22,7 @@
             <div class="col-lg-4">
                 <div class="getintouch">
                     <h3 class="title">Mã số thuế</h3>
-                    <h4 class="orange">0315825815</h4>
+                    <h4 class="orange">0315583002</h4>
                 </div>
 
             </div>

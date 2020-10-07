@@ -155,7 +155,7 @@
         <section id="contact" class="contact graybg pb-5">
             <div class="container wow fadeInUp">
                 <div class="section-title bottom_15 top_30 bottom_45">
-                    <h2 class="title">E-Solution Media</h2>
+                    <h2 class="title">Ái Việt Group</h2>
                 </div>
                 <!-- Map -->
                 <div class="contact-wrapper">

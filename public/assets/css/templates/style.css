@@ -815,12 +815,11 @@ header .menu-contact .active {
 }
 
 .hb-left {
-    float: left;
+    text-align: center;
     height: 20px;
     line-height: 20px;
-    position: absolute;
+    position: relative;
     bottom: 45px;
-    left: 45px;
     z-index: 1;
     color: #fff;
     font-size: 15px;

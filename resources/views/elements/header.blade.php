@@ -2,7 +2,7 @@
     <!-- Logo -->
     <div class="logo">
         <a href="{{route('index')}}">
-            <img src="{{asset('uploads/image/logo/horizontal_logo_white.png')}}" alt="AV"/>
+            <img src="{{asset('uploads/image/logo/AV.png')}}" alt="AV"/>
         </a>
     </div>
     <div class="nav-icon">
@@ -49,7 +49,7 @@
                 </a>
             </li>
             <li>
-                <a href="{{route('index')}}/#customer">
+                <a href="{{route('index')}}/#client">
                     <span data-hover="Khách hàng">Khách hàng</span>
                 </a>
             </li>
