@@ -130,67 +130,7 @@
         </section>
         <section id="how_we_work" class="how-we-work">
             <div class="container wow fadeInUp">
-                <h3 class="text-center" style="color: white; margin: 30px 0 45px; padding-top: 30px;">Quá trình sáng
-                    tạo</h3>
-                <div id="how-we-work" class="row icon-work top_30">
-                    <div class="col-6 col-md how-we-work text-center">
-                        <img class="png"
-                             src="{{asset('uploads/image/how-we-work/team.png')}}"
-                             alt=""/>
-                        <img class="gif" src="{{asset('uploads/image/how-we-work/team.gif')}}" alt=""/>
-                        <div class="box-desc">Meet up</div>
-                        <p class="top_30" style="font-size: 14px; line-height: 1.5;">
-                            Buổi gặp gỡ để chúng tôi làm quen với bạn. Qua cuộc trò chuyện đơn giản, chúng tôi nắm bắt
-                            nhu cầu và thấu hiểu mong muốn của bạn dành cho thương hiệu của mình một cách sâu sắc
-                            nhất.</p>
-                    </div>
-                    <div class="col-6 col-md how-we-work text-center">
-                        <img class="png"
-                             src="{{asset('uploads/image/how-we-work/strategy.png')}}"
-                             alt=""/>
-                        <img class="gif" src="{{asset('uploads/image/how-we-work/strategy.gif')}}" alt=""/>
-                        <div class="box-desc">Brainstorming</div>
-                        <p class="top_30" style="font-size: 14px; line-height: 1.3;">Sau khi gặp bạn, chúng tôi bắt đầu
-                            tìm hiểu về những điều xung quanh liên quan đến bạn, đối thủ, thị trường, lĩnh vực và cả bạn
-                            nữa. Chúng tôi sẽ “bão não” với nhau để ra được hướng đi đúng nhất cho thương hiệu của
-                            bạn.</p>
-                    </div>
-                    <div class="col-6 col-md how-we-work text-center">
-                        <img class="png"
-                             src="{{asset('uploads/image/how-we-work/design.png')}}"
-                             alt=""/>
-                        <img class="gif" src="{{asset('uploads/image/how-we-work/design.gif')}}" alt=""/>
-                        <div class="box-desc">Concept</div>
-                        <p class="top_30" style="font-size: 14px; line-height: 1.3;">Rất nhiều tưởng và hướng đi đã sẵn
-                            sàng trên giấy, chúng tôi trình bày mọi thứ với bạn. Nếu may mắn bạn ưng ý tưởng ấy, chúng
-                            tôi sẽ qua bước thứ 5, còn chưa đạt với mong muốn của bạn, hãy nói cho chúng tôi biết để kịp
-                            thời chỉnh sửa cho phù hợp với doanh nghiệp của “chúng ta” nhé.
-                        </p>
-                    </div>
-                    <div class="col-6 col-md how-we-work text-center">
-                        <img class="png"
-                             src="{{asset('uploads/image/how-we-work/deliver.png')}}"
-                             alt=""/>
-                        <img class="gif" src="{{asset('uploads/image/how-we-work/deliver.gif')}}" alt=""/>
-                        <div class="box-desc">Edition</div>
-                        <p class="top_30" style="font-size: 14px; line-height: 1.3;">Sau khi nhận được phản hồi từ bạn,
-                            chúng tôi lại xảy ra một cuộc “bão não” khác để đưa ra các phương án tối ưu nữa. Tất cả vì
-                            mục tiêu chung Thực hiện một chiến lược truyền thông hiệu quả nhất cho doanh nghiệp của bạn.
-                        </p>
-                    </div>
-                    <div class="col-6 col-md how-we-work text-center">
-                        <img class="png"
-                             src="{{asset('uploads/image/how-we-work/monitoring.png')}}"
-                             alt=""/>
-                        <img class="gif" src="{{asset('uploads/image/how-we-work/monitoring.gif')}}" alt=""/>
-                        <div class="box-desc">Finalization</div>
-                        <p class="top_30" style="font-size: 14px; line-height: 1.3;">Final. Đây chính là thành quả của
-                            cả 2 cả chúng tôi và bạn. Hãy tự hào vì điều đó và sau khi trình bày mọi thứ hoàn chỉnh nhất
-                            cho bạn, chúng ta sẽ tiến hành, chờ đón những điều tốt đẹp và thành công đang chờ ta ở phía
-                            trước.
-                        </p>
-                    </div>
-                </div>
+                <div class="text-center"><img style="max-width: 80%; object-fit: contain" src="{{asset('uploads/image/how-we-work/how_we_work.png')}}"></div>
             </div>
         </section>
 
@@ -230,7 +170,6 @@
                                 <div class="directions-panel"></div>
                             </div>
                         </div>
-
                     </div>
                     <div class="getintouch">
                         <!-- contact info -->
