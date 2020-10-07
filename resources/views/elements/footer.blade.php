@@ -13,7 +13,7 @@
                     <h3 class="title">Liên hệ</h3>
                     <p><i class="ficon fas fa-home"></i>&nbsp;253 Điện Biên Phủ, Phường 7, Quận 3, TPHCM</p>
                     <p><i class="ficon fas fa-phone"></i>&nbsp;073 362 514</p>
-                    <p><i class="ficon far fa-envelope"></i>office@aivietgroup.asia</p>
+                    <p><i class="ficon far fa-envelope"></i>&nbsp;office@aivietgroup.asia</p>
                 </div>
                 <div class="ftr-social">
                     <div id="social-icon" class="social"></div>
