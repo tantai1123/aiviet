@@ -17,13 +17,9 @@
             <!-- Swiper -->
             <div class="swiper-container upslide hero-slide-background position-relative">
                 <div data-relative-input="true" id="hero_background">
-                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/laptop.png')}}" alt=""/></div>
-{{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-light.png')}}' alt=""/></div>--}}
-{{--                    <div data-depth="0.15"><img src='{{asset('uploads/image/banner/banner-bulb.png')}}' alt=""--}}
-{{--                                                class="animation-float"/></div>--}}
-{{--                    <div data-depth="0.35"><img src='{{asset('uploads/image/banner/banner-human.png')}}' alt=""/></div>--}}
-                    <div data-depth="0.01"><img src="{{asset('uploads/image/banner/aiviet-group2.jpg')}}" alt=""/>
-                    </div>
+                    <div data-depth="0.15"><img src="{{asset('uploads/image/banner/bg1.png')}}" alt=""/></div>
+                    <div data-depth="0.2"><img src="{{asset('uploads/image/banner/lightballoon1.png')}}" alt=""/></div>
+                    <div data-depth="0.25"><img src="{{asset('uploads/image/banner/lightballoon2.png')}}" alt=""/></div>
                 </div>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -85,8 +81,9 @@
                                 <a href="{{route('service')}}" class="swiper-slide">
                                     <div class="service">
                                         <div style="text-align: center"><img width="60" src="{{asset($service->icon)}}"
-                                             alt="{{$service->service_name}}"/></div>
-                                        <h3 style="text-align: center" class="second-title orange">{{$service->service_name}}</h3>
+                                                                             alt="{{$service->service_name}}"/></div>
+                                        <h3 style="text-align: center"
+                                            class="second-title orange">{{$service->service_name}}</h3>
                                         <ul>{!! '<li>'. str_replace("\n",'</li><li>',$service->description)!!}</ul>
                                     </div>
                                 </a>
@@ -110,13 +107,16 @@
                             <span class="box-desc gradient">Ái Việt Digital </span>
                         </div>
                         <p class="top_30"><strong>Chúng tôi là Ái Việt - Digital Marketing Agency.</strong>
-                            Ái Việt Group là đơn vị cung cấp dịch vụ Digital & Media Marketing hàng đầu tại Việt Nam. Chúng tôi mang đến giải pháp tối ưu hiệu quả cho các chiến dịch Marketing, triển khai chiến lược xây dựng thương hiệu bền vững. Từ đó, giúp gia tăng lòng tin của khách hàng và mang lại doanh thu lợi nhuận cho các Doanh nghiệp đối tác.</p>
+                            Ái Việt Group là đơn vị cung cấp dịch vụ Digital & Media Marketing hàng đầu tại Việt Nam.
+                            Chúng tôi mang đến giải pháp tối ưu hiệu quả cho các chiến dịch Marketing, triển khai chiến
+                            lược xây dựng thương hiệu bền vững. Từ đó, giúp gia tăng lòng tin của khách hàng và mang lại
+                            doanh thu lợi nhuận cho các Doanh nghiệp đối tác.</p>
                     </div>
                     <div class="col-lg-6 image">
                         <div id="about_scene" data-relative-input="true">
-                            <div data-depth="0.30"><img src="{{asset('uploads/image/about/layer0.png')}}"
+                            <div data-depth="0.20"><img src="{{asset('uploads/image/about/layer1.png')}}"
                                                         width="500" alt=""/></div>
-                            <div data-depth="0.13"><img src="{{asset('uploads/image/about/layer1.png')}}"
+                            <div data-depth="0.15"><img src="{{asset('uploads/image/about/layer0.png')}}"
                                                         width="500" alt=""/></div>
                             <div data-depth="0.8"><img src="{{asset('uploads/image/about/layer2.png')}}"
                                                        width="500" alt=""/>
@@ -130,7 +130,8 @@
         </section>
         <section id="how_we_work" class="how-we-work">
             <div class="container wow fadeInUp">
-                <div class="text-center"><img style="max-width: 80%; object-fit: contain" src="{{asset('uploads/image/how-we-work/how_we_work.png')}}"></div>
+                <div class="text-center"><img style="max-width: 80%; object-fit: contain"
+                                              src="{{asset('uploads/image/how-we-work/how_we_work.png')}}"></div>
             </div>
         </section>
 
